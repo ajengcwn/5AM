@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>05:00</title>
+  </head>
+  <style>
+    @font-face {
+      font-family: "Molifer"; /* Give your font a name to use */
+      src: url("molifer/Molifer.otf") format("otf"),
+        url("molifer/Molifer.ttf") format("truetype");
+      font-weight: normal; /* Specify desired font weights */
+      font-style: normal; /* Specify if the font is italic or not */
+    }
+    .title {
+      font-family: "Molifer", sans-serif;
+      font-size: 2rem;
+      opacity: 90%;
+    }
+    .nav-item.current .nav-link {
+      color: red;
+    }
+  </style>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="
+        background-color: black;
+        position: fixed;
+        z-index: 100;
+        width: 100vw;
+        justify-items: center;
+      "
+    >
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" style="" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item current">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="short_movie.html"
+                >Short Movie</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="about_us.html"
+                >Abot Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- end Navbar -->
+
+    <section class="container-fluid">
+      <div class="row" style="background-color: black">
+        <div class="row" style="background-color: black">
+          <!-- YT -->
+          <div class="row" style="margin-bottom: 2.5rem">
+            <iframe
+              style="padding-left: 10rem; padding-right: 10rem"
+              height="400"
+              src="https://www.youtube.com/embed/0YzV5gKH-3E?si=n58y8xtbI-BmztvO"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <!-- <iframe
+            style="padding-left: 10rem; padding-right: 10rem"
+            height="400"
+            src="https://www.youtube.com/embed/ekMsV_QvPtg?si=stLBuOMyuIgSkHmi"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe> -->
+          </div>
+          <!-- Sub1 -->
+          <div class="row" style="padding-left: 5rem">
+            <div class="row">
+              <div class="col-5">
+                <img
+                  style="height: 8vh; margin-left: -0.5vw"
+                  src="assets/title.png"
+                  alt="title"
+                />
+                <!-- <span style="color: aliceblue; font-size: 3rem">AM</span> -->
+              </div>
+            </div>
+            <div class="row" style="color: aliceblue; background-color: black">
+              <span>Short Movie</span>
+              <span>18+ | 10 menit | 2024</span>
+              <button
+                type="button"
+                class="btn btn-light"
+                style="
+                  width: 5rem;
+                  scale: 80%;
+                  margin-bottom: 0.5rem;
+                  margin-top: 0.5rem;
+                "
+              >
+                Thriller
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- batas -->
+        <div
+          class="row"
+          style="background-color: aliceblue; height: 0.2rem"
+        ></div>
+        <!-- Sub2 -->
+        <div class="row" style="padding: 5rem">
+          <!-- 2columns -->
+          <div class="row">
+            <!-- 1 -->
+            <div class="col-lg-6 col-sm-6">
+              <!-- Cast -->
+              <div
+                class="row"
+                style="
+                  background-color: black;
+                  color: aliceblue;
+                  margin-bottom: 5rem;
+                "
+              >
+                <span class="title">Cast</span>
+                <span>Sarah as Sarah (Pemeran Utama)</span
+                ><span>Afrizal as Ayah, Tentangga1</span>
+                <span>Ajeng as Ibu, Presenter, Tetangga 3</span>
+                <span>Felicia as Tetangga 1</span>
+              </div>
+              <!-- Techniques -->
+              <div
+                class="row"
+                style="background-color: black; color: aliceblue"
+              >
+                <span class="title">Techniques</span>
+                <span>Frame Rate : </span>
+                <span>Resolution : </span>
+                <span>Sound Type : </span>
+                <span>Animation Type : </span>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-lg-6 col-sm-6" style="background-color: black">
+              <!-- Crew -->
+              <div
+                class="row"
+                style="
+                  background-color: black;
+                  color: aliceblue;
+                  margin-bottom: 3rem;
+                "
+              >
+                <span class="title">Crew</span>
+                <span>Kelompok 5 Multimedia System PPTI 15 </span>
+              </div>
+              <!-- Director -->
+              <div
+                class="row"
+                style="
+                  background-color: black;
+                  color: aliceblue;
+                  margin-bottom: 3rem;
+                "
+              >
+                <span class="title">Director</span>
+                <span>Afrizal Rifqi Syahputra </span>
+                <span>Ajeng Cipta Wening</span>
+                <span>Felicia Putri Sugianto</span>
+                <span>Sarah Widya Putri</span>
+              </div>
+              <!-- Story Board -->
+              <div
+                class="row"
+                style="
+                  background-color: black;
+                  color: aliceblue;
+                  margin-bottom: 3rem;
+                "
+              >
+                <span class="title">Story Board</span>
+                <span>Felicia Putri Sugianto</span>
+              </div>
+              <!-- Script Writer -->
+              <div
+                class="row"
+                style="
+                  background-color: black;
+                  color: aliceblue;
+                  margin-bottom: 3rem;
+                "
+              >
+                <span class="title">Script Writer</span>
+                <span>Afrizal Rifqi Syahputra </span>
+                <span>Ajeng Cipta Wening</span>
+                <span>Felicia Putriu Sugianto</span>
+                <span>Sarah Widya Putri</span>
+              </div>
+              <!-- Cameramen -->
+              <div
+                class="row"
+                style="
+                  background-color: black;
+                  color: aliceblue;
+                  margin-bottom: 3rem;
+                "
+              >
+                <span class="title">Cameramen</span>
+                <span>Afrizal Rifqi Syahputra </span>
+                <span>Ajeng Cipta Wening</span>
+                <span>Felicia Putriu Sugianto</span>
+                <span>Sarah Widya Putri</span>
+              </div>
+              <!-- Editor -->
+              <div
+                class="row"
+                style="background-color: black; color: aliceblue"
+              >
+                <span class="title">Editor</span>
+                <span>Afrizal Rifqi Syahputra </span>
+                <span>Ajeng Cipta Wening</span>
+                <span>Felicia Putriu Sugianto</span>
+                <span>Sarah Widya Putri</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <hr style="color: aliceblue; height: 0.5vh" />
+        <div
+          class="row text-center"
+          style="background-color: black; color: aliceblue"
+        >
+          <span style="font-size: small; margin: 1rem"
+            >Production by Kelompok 5 Multimedia System PPTI 15</span
+          >
+        </div>
+      </div>
+      <!--  -->
+    </section>
+  </body>
+  <!-- Bootstrap -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>

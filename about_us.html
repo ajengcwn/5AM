@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>05:00</title>
+  </head>
+  <style>
+    @font-face {
+      font-family: "Molifer"; /* Give your font a name to use */
+      src: url("molifer/Molifer.otf") format("otf"),
+        url("molifer/Molifer.ttf") format("truetype");
+      font-weight: normal; /* Specify desired font weights */
+      font-style: normal; /* Specify if the font is italic or not */
+    }
+    .title {
+      font-family: "Molifer", sans-serif;
+      font-size: 3rem;
+      opacity: 90%;
+    }
+    .nav-item.current .nav-link {
+      color: red;
+    }
+  </style>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="
+        background-color: black;
+        position: fixed;
+        z-index: 100;
+        width: 100vw;
+        justify-items: center;
+      "
+    >
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" style="" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="short_movie.html"
+                >Short Movie</a
+              >
+            </li>
+            <li class="nav-item current">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="about_us.html"
+                >Abot Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- end Navbar -->
+
+    <section class="container-fluid">
+      <div class="row" style="background-color: black;">
+        <!-- Sekilas -->
+        <div class="row">
+          <div
+            class="row title text-center"
+            style="color: aliceblue; margin-top: 10rem; background-color: black"
+          >
+            <span>Sekilas</span>
+          </div>
+          <div
+            class="row"
+            style="padding: 10rem; margin-top: -8rem; color: aliceblue"
+          >
+            <p>
+              Kami adalah mahasiswa/i PPTI 15. Di cawu 4 ini, kami sedang
+              mengerjakan proyek Multimedia System yang kami wujudkan dalam
+              bentuk sebuah film pendek thriller. Film ini merupakan hasil
+              kolaboratif ide kreatif kami bersama.
+            </p>
+            <p>
+              Tantangan dalam pembuatan proyek ini adalah dimana kami harus bisa
+              menyeimbangkan antara waktu perkuliahan, kesibukan antar projek
+              lain, dan keterbatasan lokasi shooting. Namun, dengan semangat dan
+              kerja sama tim yang baik, kami mampu menyelesaikan film pendek ini
+              dengan maksimal. Menjadikan hasil proyek ini sebagai bukti bahwa
+              kami memiliki kemampuan untuk menghasilkan karya multimedia yang
+              kreatif dan berkualitas.
+            </p>
+            <p>
+              Kami berharap film pendek thriller kami dapat memberikan hiburan
+              sekaligus pengalaman baru kepada para penonton. Selamat menonton,
+              terima kasih!
+            </p>
+          </div>
+        </div>
+        <!-- Anggota -->
+        <div class="row">
+            <div
+              class="row title text-center"
+              style="color: aliceblue; background-color: black"
+            >
+              <span>Anggota Kelompok</span>
+            </div>
+            <!-- Card -->
+            <div
+              class="row row-cols-1 row-cols-md-2 g-4"
+              style="padding-left: 15rem; padding-right: 15rem; margin-top: -2rem; background-color: black"
+            >
+              <div class="col">
+                <div class="card" style="scale: 70%">
+                  <img src="assets/afrizal.png" class="card-img-top" alt="..." />
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Afrizal Rizqi Syahputra</h5>
+                    <p class="card-text">2602189386</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="scale: 70%">
+                  <img src="assets/ajeng.png" class="card-img-top" alt="..." />
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Ajeng Cipta Wening</h5>
+                    <p class="card-text">2602189392</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="margin-top: -5rem">
+                <div class="card" style="scale: 70%">
+                  <img src="assets/feli.png" class="card-img-top" alt="..." />
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Felicia Putri Sugianto</h5>
+                    <p class="card-text">2602189461</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="margin-top: -5rem">
+                <div class="card" style="scale: 70%">
+                  <img src="assets/sarah.png" class="card-img-top" alt="..." />
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Sarah Widya Putri</h5>
+                    <p class="card-text">2602189530</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Footer -->
+      <div
+      class="row text-center"
+      style="background-color: black; color: aliceblue"
+    >
+      <hr style="margin: 0%; color: aliceblue; height: 0.5vh" />
+      <span style="font-size: small; margin: 1rem"
+        >Production by Kelompok 5 Multimedia System PPTI 15</span
+      >
+    </div>
+      </div>
+      
+    </section>
+  </body>
+  <!-- Bootstrap -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
